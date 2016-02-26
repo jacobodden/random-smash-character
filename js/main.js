@@ -60,6 +60,7 @@ var chars = [
 
 $(document).ready(function() {
     $(".pick-character-btn").click(function() {
+        ga('send','event','Random Character','Btn Click');
         randomChar();
     });
 });
@@ -78,4 +79,5 @@ function randomChar() {
 function update() {
     x = 0;
     $(".text-container h2").text(chars[Math.abs(c) / 128 - 1] + ", has been choosen!");
+    ga('send','event','Character Selected',chars[Math.abs(c) / 128 - 1]);
 }
