@@ -25,7 +25,7 @@ var chars = [
     "Marth",
     "Ike",
     "Robin",
-    "Duck Hunt Duo",
+    "Duck Hunt",
     "Kirby",
     "King DeDeDe",
     "Meta Knight",
